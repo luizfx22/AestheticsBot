@@ -1,4 +1,7 @@
 language: python
 python: - "3.6.8"
-rvm:
- - 0.5
+install:
+ - pip install -r requirements.txt
+ - pip install .
+ 
+script: bot.py
