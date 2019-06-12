@@ -1,4 +1,4 @@
 language: python
 rvm:
  - 0.5
- - python
+ - python: 3.6.8
